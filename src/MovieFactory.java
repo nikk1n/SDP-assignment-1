@@ -1,3 +1,4 @@
+//Factory pattern for creating movies
 public interface MovieFactory {
     Movie createMovie(String title);
 }

@@ -1,3 +1,4 @@
+//Prototype pattern for creating schedule templates
 public interface MovieSchedule extends Cloneable{
     MovieSchedule clone();
     void setMovie(Movie movie);

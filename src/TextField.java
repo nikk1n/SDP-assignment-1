@@ -1,3 +1,4 @@
+//Interface for text field themes
 public interface TextField {
     void render();
 }

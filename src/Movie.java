@@ -1,3 +1,4 @@
+//Interface for movie types
 public interface Movie {
     String getTitle();
     void setTitle(String title);

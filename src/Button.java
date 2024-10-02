@@ -1,3 +1,4 @@
+//Interface for button themes
 public interface Button {
     void render();
 }

@@ -18,7 +18,9 @@ public class CinemaManagementApp {
                 .setMovieTitle("Inception")
                 .setSeatNumber("A1")
                 .setSnackCombo("Popcorn and Soda")
+                .setPrice(1500)
                 .build();
+        System.out.println("Movie: "+booking.getMovieTitle()+", Seat number: "+booking.getSeatNumber()+", Snacks: "+booking.getSnackCombo()+", Price: "+booking.getPrice());
         // Prototype usage
         StandardSchedule template = new StandardSchedule();
         template.setTime("18:00");
