@@ -11,3 +11,7 @@ class DarkThemeFactory implements UIFactory{
         return new DarkThemeTextField();
     }
 }
+class LightThemeFactory implements UIFactory{
+    public Button createButton(){ return new LightThemeButton();}
+    public TextField createTextField(){ return new LightThemeTextField();}
+}
