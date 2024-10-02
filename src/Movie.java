@@ -7,6 +7,7 @@ public interface Movie {
         private String title;
 
         public RegularMovie(String title) {
+            this.title=title;
         }
 
         @Override
